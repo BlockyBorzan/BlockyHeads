@@ -1,0 +1,335 @@
+# These keys are valid for each mob head. 
+all-heads:
+    enabled: true
+    drop-chance: 0.015 # the chance of dropping this head ]
+    unlocks-at: 50 # number of heads needed to unlock the head
+    unlock-cost: 10000.0 # money needed to unlock the drops after delivering the number of heads
+
+# Any specific mob head can override these values by using the same keys. For example like so:
+#
+#  Bat:
+#    drop-chance: 0.40
+#    unlocks-at: 200
+#    unlocks-from: [[Pig] 
+#    value: 1000.0 # money
+
+mobs:
+# passive
+  Bat:
+    drop-chance: 0.025
+    unlocks-from: [Chicken]
+    unlocks-at: 12
+    unlock-cost: 720.00
+    value: 260.00
+  Chicken:
+    drop-chance: 0.030
+    unlocks-from: []
+    unlocks-at: 0
+    unlock-cost: 0.00
+    value: 200.00
+  Cod:
+    drop-chance: 0.023
+    unlocks-from: [Chicken, Cow, Pig]
+    unlocks-at: 6
+    unlock-cost: 180.00
+    value: 230.00
+  Cow:
+    drop-chance: 0.030
+    unlocks-from: []
+    unlocks-at: 0
+    unlock-cost: 0.00
+    value: 200.00
+  Donkey:
+    drop-chance: 0.031
+    unlocks-from: [Horse]
+    unlocks-at: 50
+    unlock-cost: 12500.00
+    value: 450.00
+  Horse:
+    drop-chance: 0.031
+    unlocks-from: [Chicken, Cow, Pig]
+    unlocks-at: 50
+    unlock-cost: 12500.00
+    value: 450.00
+  Mooshroom:
+    drop-chance: 0.027
+    unlocks-from: [Cow]
+    unlocks-at: 20
+    unlock-cost: 2000.00
+    value: 300.00
+  Mule:
+    drop-chance: 0.031
+    unlocks-from: [Horse]
+    unlocks-at: 50
+    unlock-cost: 12500.00
+    value: 450.00
+  Ocelot:
+    drop-chance: 0.027
+    unlocks-from: [Wolf]
+    unlocks-at: 20
+    unlock-cost: 2000.00
+    value: 300.00
+  Parrot:
+    drop-chance: 0.025
+    unlocks-from: [Chicken, Cow, Pig, Sheep]
+    unlocks-at: 12
+    unlock-cost: 720.00
+    value: 260.00
+  Pig:
+    drop-chance: 0.030
+    unlocks-from: []
+    unlocks-at: 0
+    unlock-cost: 0.00
+    value: 200.00
+  Pufferfish:
+    drop-chance: 0.023
+    unlocks-from: [Chicken, Cow, Pig]
+    unlocks-at: 6
+    unlock-cost: 180.00
+    value: 230.00
+  Rabbit:
+    drop-chance: 0.023
+    unlocks-from: [Chicken, Cow, Pig]
+    unlocks-at: 6
+    unlock-cost: 180.00
+    value: 230.00
+  Salmon:
+    drop-chance: 0.023
+    unlocks-from: [Chicken, Cow, Pig]
+    unlocks-at: 6
+    unlock-cost: 180.00
+    value: 230.00
+  Sheep:
+    drop-chance: 0.026
+    unlocks-from: [Chicken, Cow, Pig]
+    unlocks-at: 16
+    unlock-cost: 1280.00
+    value: 280.00
+  Skeleton Horse:
+    drop-chance: 0.029
+    unlocks-from: [Skeleton, Horse]
+    unlocks-at: 30
+    unlock-cost: 4500.00
+    value: 350.00
+  Squid:
+    drop-chance: 0.027
+    unlocks-from: [Cod, Pufferfish, Salmon, Tropical Fish]
+    unlocks-at: 20
+    unlock-cost: 2000.00
+    value: 300.00
+  Turtle:
+    drop-chance: 0.032
+    unlocks-from: [Cod, Pufferfish, Salmon, Tropical Fish]
+    unlocks-at: 60
+    unlock-cost: 18000.00
+    value: 500.00
+  Tropical Fish:
+    drop-chance: 0.023
+    unlocks-from: [Chicken, Cow, Pig]
+    unlocks-at: 6
+    unlock-cost: 180.00
+    value: 230.00
+  Villager:
+    drop-chance: 0.030
+    unlocks-from: [Turtle, Vindicator, Witch]
+    unlocks-at: 40
+    unlock-cost: 8000.00
+    value: 400.00
+
+# neutral
+  Cave Spider:
+    drop-chance: 0.022
+    unlocks-from: [Spider, Skeleton]
+    unlocks-at: 39
+    unlock-cost: 5616.00
+    value: 412.80
+  Dolphin:
+    drop-chance: 0.022
+    unlocks-from: [Cod, Pufferfish, Salmon, Tropical Fish]
+    unlocks-at: 35
+    unlock-cost: 4200.00
+    value: 384.00
+  Enderman:
+    drop-chance: 0.024
+    unlocks-from: [Chicken, Cow, Pig, Spider, Skeleton, Creeper]
+    unlocks-at: 95
+    unlock-cost: 45600.00
+    value: 816.00
+  Llama:
+    drop-chance: 0.023
+    unlocks-from: [Horse, Donkey, Mule]
+    unlocks-at: 55
+    unlock-cost: 13200.00
+    value: 528.00
+  Polar Bear:
+    drop-chance: 0.023
+    unlocks-from: [Wolf, Ocelot, Slime]
+    unlocks-at: 75
+    unlock-cost: 27000.00
+    value: 672.00
+  Spider:
+    drop-chance: 0.025
+    unlocks-from: []
+    unlocks-at: 0
+    unlock-cost: 0.00
+    value: 240.00
+  Wolf:
+    drop-chance: 0.022
+    unlocks-from: [Chicken, Cow, Pig]
+    unlocks-at: 31
+    unlock-cost: 2976.00
+    value: 355.20
+  Zombie Pigman:
+    drop-chance: 0.023
+    unlocks-from: [Zombie]
+    unlocks-at: 55
+    unlock-cost: 13200.00
+    value: 528.00
+
+# hostile:
+  Blaze:
+    drop-chance: 0.013
+    unlocks-from: [Wither Skeleton]
+    unlocks-at: 40
+    unlock-cost: 12000.00
+    value: 750.00
+  Creeper:
+    drop-chance: 0.020
+    unlocks-from: []
+    unlocks-at: 0
+    unlock-cost: 0.00
+    value: 300.00
+  Drowned:
+    drop-chance: 0.013
+    unlocks-from: [Zombie]
+    unlocks-at: 40
+    unlock-cost: 12000.00
+    value: 750.00
+  Elder Guardian:
+    drop-chance: 0.014
+    unlocks-from: [Guardian, Dolphin, Squid]
+    unlocks-at: 160
+    unlock-cost: 192000.00
+    value: 2100.00
+  Endermite:
+    drop-chance: 0.012
+    unlocks-from: [Creeper, Skeleton, Zombie, Spider]
+    unlocks-at: 16
+    unlock-cost: 1920.00
+    value: 480.00
+  Evoker:
+    drop-chance: 0.013
+    unlocks-from: [Creeper, Skeleton, Zombie]
+    unlocks-at: 48
+    unlock-cost: 17280.00
+    value: 840.00
+  Ghast:
+    drop-chance: 0.012
+    unlocks-from: [Blaze, Zombie Pigman, Magma Cube]
+    unlocks-at: 20
+    unlock-cost: 3000.00
+    value: 525.00
+  Guardian:
+    drop-chance: 0.013
+    unlocks-from: [Cod, Pufferfish, Salmon, Tropical Fish, Dolphin, Squid]
+    unlocks-at: 60
+    unlock-cost: 27000.00
+    value: 975.00
+  Husk:
+    drop-chance: 0.013
+    unlocks-from: [Zombie]
+    unlocks-at: 40
+    unlock-cost: 12000.00
+    value: 750.00
+  Magma Cube:
+    drop-chance: 0.012
+    unlocks-from: [Slime]
+    unlocks-at: 32
+    unlock-cost: 7680.00
+    value: 660.00
+  Phantom:
+    drop-chance: 0.013
+    unlocks-from: [Enderman]
+    unlocks-at: 40
+    unlock-cost: 12000.00
+    value: 750.00
+  Shulker:
+    drop-chance: 0.013
+    unlocks-from: [Phantom, Endermite, Skeleton, Zombie, Creeper]
+    unlocks-at: 60
+    unlock-cost: 27000.00
+    value: 975.00
+  Silverfish:
+    drop-chance: 0.012
+    unlocks-from: [Phantom]
+    unlocks-at: 16
+    unlock-cost: 1920.00
+    value: 480.00
+  Skeleton:
+    drop-chance: 0.020
+    unlocks-from: []
+    unlocks-at: 0
+    unlock-cost: 0.00
+    value: 300.00
+  Slime:
+    drop-chance: 0.012
+    unlocks-from: [Creeper, Skeleton, Zombie]
+    unlocks-at: 32
+    unlock-cost: 7680.00
+    value: 660.00
+  Stray:
+    drop-chance: 0.013
+    unlocks-from: [Creeper, Skeleton, Zombie]
+    unlocks-at: 40
+    unlock-cost: 12000.00
+    value: 750.00
+  Vex:
+    drop-chance: 0.012
+    unlocks-from: [Bat]
+    unlocks-at: 28
+    unlock-cost: 5880.00
+    value: 615.00
+  Vindicator:
+    drop-chance: 0.013
+    unlocks-from: [Creeper, Skeleton, Zombie]
+    unlocks-at: 48
+    unlock-cost: 17280.00
+    value: 840.00
+  Witch:
+    drop-chance: 0.013
+    unlocks-from: [Creeper, Skeleton, Zombie, Spider]
+    unlocks-at: 52
+    unlock-cost: 20280.00
+    value: 885.00
+  Wither Skeleton:
+    drop-chance: 0.013
+    unlocks-from: [Skeleton]
+    unlocks-at: 40
+    unlock-cost: 12000.00
+    value: 750.00
+  Zombie:
+    drop-chance: 0.020
+    unlocks-from: []
+    unlocks-at: 0
+    unlock-cost: 0.00
+    value: 300.00
+  Zombie Villager:
+    drop-chance: 0.013
+    unlocks-from: [Villager, Zombie]
+    unlocks-at: 40
+    unlock-cost: 12000.00
+    value: 750.00
+    
+# boss
+  Wither:
+    drop-chance: 0.014
+    unlocks-from: [Phantom, Enderman, Wither Skeleton, Guardian, Elder Guardian, Witch, Evoker, Vindicator, Vex, Zombie Villager, Drowned, Shulker, Ghast, Blaze, Polar Bear, Skeleton Horse, Mooshroom, Villager, Dolphin]
+    unlocks-at: 600
+    unlock-cost: 2700000.00
+    value: 7050.00
+  Ender Dragon:
+    drop-chance: 0.016
+    unlocks-from: [Phantom, Enderman, Wither Skeleton, Guardian, Elder Guardian, Witch, Evoker, Vindicator, Vex, Zombie Villager, Drowned, Shulker, Ghast, Blaze, Polar Bear, Skeleton Horse, Mooshroom, Villager, Dolphin]
+    unlocks-at: 800
+    unlock-cost: 3400000.00
+    value: 6675.00
