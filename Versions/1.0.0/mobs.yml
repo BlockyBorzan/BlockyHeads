@@ -1,10 +1,9 @@
 # These keys are valid for each mob head. 
 all-heads:
-  enabled: true
-  drop-chance: 0.015 # the chance of dropping this head ]
-  unlocks-at: 50 # number of heads needed to unlock the head
-  unlock-cost: 10000.0 # money needed to unlock the drops after delivering the number of heads
-  egg-chance: 0.01 # statistically every 100th dropped head becomes a spawn egg instead
+    enabled: true
+    drop-chance: 0.015 # the chance of dropping this head ]
+    unlocks-at: 50 # number of heads needed to unlock the head
+    unlock-cost: 10000.0 # money needed to unlock the drops after delivering the number of heads
 
 # Any specific mob head can override these values by using the same keys. For example like so:
 #
@@ -13,7 +12,6 @@ all-heads:
 #    unlocks-at: 200
 #    unlocks-from: [[Pig] 
 #    value: 1000.0 # money
-#    egg-chance: 0.1
 
 mobs:
 # passive

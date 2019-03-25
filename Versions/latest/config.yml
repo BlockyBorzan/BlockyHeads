@@ -1,6 +1,6 @@
 # DON'T DELETE THIS KEY OR CHANGE THE VALUE. IT IS IMPORTANT FOR AUTOMATIC CONFIG UPDATES!
 # CHANGES MIGHT LEAD TO DATA INCONSISTENCIES!
-version: "v1.0.0"
+version: "v1.1.0"
 
 
 # determines whether the gui shows heads of disabled heads or not
@@ -9,3 +9,22 @@ show-disabled-heads: true
 # determines whether only naturally spawned mobs drop their heads or mobs 
 # spawned via spawners, eggs and commands drop their heads.
 only-natural-spawns-drop-heads: true
+
+
+# valid particle effects can be found here: 
+# https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Particle.html
+
+# this particle effect is shown when a head gets dropped
+particle-effect-on-head-drop: 'DRAGON_BREATH'
+
+# this particle effect is shown when a spawn egg gets dropped
+particle-effect-on-egg-drop: 'DRAGON_BREATH'
+
+# valid sound effects can be found here: 
+# https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+
+# this sound effect is played when a head is dropped
+sound-effect-on-head-drop: 'ENTITY_ENDER_EYE_DEATH'
+
+# this sound effect is played when an egg gets dropped
+sound-effect-on-egg-drop: 'ENTITY_ENDER_EYE_DEATH'

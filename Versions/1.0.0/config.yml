@@ -1,0 +1,11 @@
+# DON'T DELETE THIS KEY OR CHANGE THE VALUE. IT IS IMPORTANT FOR AUTOMATIC CONFIG UPDATES!
+# CHANGES MIGHT LEAD TO DATA INCONSISTENCIES!
+version: "v1.0.0"
+
+
+# determines whether the gui shows heads of disabled heads or not
+show-disabled-heads: true
+
+# determines whether only naturally spawned mobs drop their heads or mobs 
+# spawned via spawners, eggs and commands drop their heads.
+only-natural-spawns-drop-heads: true

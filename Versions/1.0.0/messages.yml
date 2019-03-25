@@ -1,0 +1,5 @@
+# Messages might be added in the future, for now you can only configure the plugin chat prefix shown to players.
+# Use color codes with the '&' character (https://wiki.ess3.net/mc/)
+
+plugin-chat-prefix: '&7[&6&lB&3&llocky&6&lH&3&leads&7] &r'
+
